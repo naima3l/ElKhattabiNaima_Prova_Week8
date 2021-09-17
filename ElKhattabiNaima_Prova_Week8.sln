@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ElKhattabiNaima_Prova_Week8", ".", "{B95209EE-2307-4798-812C-74843110362C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52505"
+		Debug.AspNetCompiler.PhysicalPath = "..\ElKhattabiNaima_Prova_Week8\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52505\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52505"
+		Release.AspNetCompiler.PhysicalPath = "..\ElKhattabiNaima_Prova_Week8\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52505\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52505"
+		SlnRelativePath = "..\ElKhattabiNaima_Prova_Week8\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B95209EE-2307-4798-812C-74843110362C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B95209EE-2307-4798-812C-74843110362C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0FAF1711-325A-469B-84F4-B8D70D7F0A03}
+	EndGlobalSection
+EndGlobal

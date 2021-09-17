@@ -1,0 +1,191 @@
+﻿body {
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+}
+
+/*HEADER*/
+.header {
+    padding: 50px; /* some padding */
+    text-align: center; /* center the text */
+    background: #1abc9c; /* green background */
+    color: white; /* white text color */
+    background-image: url("https://1.bp.blogspot.com/-TkkougmMVZI/WncxopDkfaI/AAAAAAAAEv8/ngBWLcZmfa0wu5xSZhleo3m5ydI6rBFQgCLcBGAs/s640/tumblr_n9skg4Fens1qzcmp3o2_500.gif");
+}
+
+    /* Increase the font size of the <h1> element */
+    .header h1 {
+        font-size: 40px;
+    }
+
+/*NAVIGATION BAR*/
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+}
+
+    /* Style the navigation bar links */
+    .navbar a {
+        float: left; /* Make sure that the links stay side-by-side */
+        display: block; /* Change the display to block, for responsive reasons (see below) */
+        color: white; /* White text color */
+        text-align: center; /* Center the text */
+        padding: 14px 20px; /* Add some padding */
+        text-decoration: none; /* Remove underline */
+    }
+
+        /* Right-aligned link */
+        .navbar a.right {
+            float: right; /* Float a link to the right */
+        }
+
+        /* Change color on hover/mouse-over */
+        .navbar a:hover {
+            background-color: #ddd; /* Grey background color */
+            color: black; /* Black text color */
+        }
+
+        /* Add a color to the active/current link */
+        .navbar a.active {
+            background-color: darkseagreen;
+            color: black;
+        }
+
+/*SCHEDA TECNICA*/
+/*CONTENUTI*/
+/* Ensure proper sizing */
+* {
+    box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.description {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.picture1 {
+    flex: 30%; /* Set the width of the main content */
+    background-color: darkcyan; /* White background color */
+    padding: 20px; /* Some padding */
+}
+
+.picture2 {
+    flex: 30%; /* Set the width of the main content */
+    background-color: steelblue; /* White background color */
+    padding: 20px; /* Some padding */
+}
+
+/*NEWS FORM*/
+/* Style the form element with a border around it */
+form {
+    border: 4px solid #f1f1f1;
+}
+
+/* Add some padding and a grey background color to containers */
+.container {
+    padding: 20px;
+    background-color: #f1f1f1;
+    background-image: url("https://i.pinimg.com/originals/61/d6/36/61d636bdf1215a00eee344df2b4adc88.gif");
+}
+
+.containerVideo {
+    padding: 20px;
+    background-image: url("https://www.wallpaper-it.com/dw/image/v2/BBBG_PRD/on/demandware.static/-/Sites-product-master/default/dwfb39cc91/images/wallpaperIT/113250_1.jpg?sw=1024&sh=1024&sm=fit");
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: darkseagreen;
+    color: white;
+    border: none;
+}
+
+    input[type=submit]:hover {
+        opacity: 0.8;
+    }
+
+#backHome {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 15px 20px; /* Add some padding */
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    float: right;
+    background-color: lightseagreen;
+}
+
+    #backHome:hover {
+        background-color: #ddd; /* Grey background color */
+        color: black; /* Black text color */
+    }
+
+
+/*FOOTER*/
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #333;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #f09433;
+    color: white;
+}
+
+#unsubscribe{
+    display: none;
+}
+
